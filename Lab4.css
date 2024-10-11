@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    background-color:crimson;
+    width: 250px;
+    height: 200px;
+    margin: 20px;}
+
+#CreateGame {
+    color:red;
+    background-color:rgb(137, 20, 20);
+    border-radius: 25px;
+    width: 250px;
+    height: 200px;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#rip {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+}
+
+div.flex-container {
+/* Only thing of note here is the Flex I used to make the three html elements line up in an a nice row */
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+body {
+    background-color:rgb(167, 19, 48);}
